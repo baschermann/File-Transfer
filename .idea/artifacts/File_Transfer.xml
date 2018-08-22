@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="File-Transfer">
+    <output-path>$PROJECT_DIR$/out/artifacts/File_Transfer</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="main.Main" />
+        <option name="description" value="File Transfer program for direct connections." />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="P2P File Transfer" />
+        <option name="vendor" value="Bjoern Aschermann" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="File-Transfer.jar">
+        <element id="module-output" name="filetransfer_main" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+      </element>
+    </root>
+  </artifact>
+</component>
