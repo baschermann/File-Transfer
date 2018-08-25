@@ -1,4 +1,6 @@
-## File-Transfer
+[![Build Status](https://travis-ci.org/baschermann/File-Transfer.svg?branch=master)](https://travis-ci.org/baschermann/File-Transfer)
+
+## File-Transfer 
 
 Peer 2 Peer File Transfer program I did as a learning experience.
 
