@@ -16,16 +16,16 @@ The goals:
   - Using a threaded approach (no NIO)
 
 - File manipulation
-  - Taking a file apart, sending it in pieces and put it back together
+  - Taking a file apart, sending it in pieces and putting it back together
   - CRC check for file consistency
 
 Known Issues:
-- Program does not close correctly. (If you find out what Thread 3 is, please tell me)
+- Program does not close correctly (if you find out what Thread-3 is, please tell me)
 - When up or download speeds are throttled, it will slow down above ~1 MB (full speed works without throttling)
 
 Features for future additions
-- Buffered Streams for File IO
-- Displaying up- and download speeds
+- Buffered streams for File IO
+- Displaying up and download speeds
 - GUI Overhaul
 - Tests (and possible refactoring)
   - (rewrite for TDD)
